@@ -1,0 +1,74 @@
+<html>
+<head>
+
+    <% include common/head %>
+    <link rel="stylesheet" href="index.css" />
+
+</head>
+
+<body>
+    <% include common/navigation %>
+
+
+    <div class="container">
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                Cyber Tower Defense: Vulnerable NodeJS Application
+            </h1>
+
+            <div class="bs-callout bs-callout-danger" id="callout-help-text-accessibility">
+              <h4>About this Web App</h4>
+              <p>This NodeJS application contains some of the most common web application vulnerabilities.  Click on one of the links below to begin a module.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class=blockSection>
+      <div class="row">
+        <div class="col-md-6 tm-mb-sm-4 tm-2col-l">
+            <div class="image">
+                <img src="usersearch_image.png" class="img-fluid">
+            </div>
+            <div class="tm-box-3">
+                <h2>User Search</h2>
+                <p> Guard against a SQL Injection Vulnerability.</p>
+                <div class="text-center">
+                    <a href="/usersearch" class="btn btn-big">Begin</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 tm-2col-r">
+            <div class="image">
+                <img src="products_image.png" class="img-fluid">
+            </div>
+            <div class="tm-box-3">
+                <header>
+                    <h2>Products</h2>
+                </header>
+                <p> Guard against a Cross-Site Scripting Vulnerability.</p>
+                <div class="text-center">
+                    <a href="/products" class="btn btn-big">Begin</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="bs-callout bs-callout-info" id="callout-help-text-accessibility">
+      <h4>Why Practice?</h4>
+      <p>Web application security is the branch of Information Security that deals specifically with the security of websites, web applications and web services.
+      As modern web sites often allow the capture, processing, storage and transmission of sensitive customer data, it is important that web application and security teams stay vigilant by detecting and hardening applications against potential web vulnerabilities.</p>
+    </div>
+
+
+
+    <hr>
+
+
+    <% include common/footer %>
+</body>
+</html>
