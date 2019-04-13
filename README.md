@@ -2,7 +2,7 @@
 The purpose of this NodeJS web application is to help you gain experience modifying source code to harden a website against some of the most common web vulnerabilities.  The vulnerable web application contains three pages: a homepage, a page susceptible to SQL injection (SQLi), and a page susceptible to cross-site scripting (XSS).  
 
 
-To help instruct on what must be done to secure the vulnerable web application, we have created a lab scenario document, as well as a lab walkthrough.  To help you set up a VM with the vulnerable NodeJS web applicaiton setup, scenario, and lab walkthrough documents can be downloaded using the following link: 
+To help instruct on what must be done to secure the vulnerable web application, we have created a lab scenario document, as well as a lab walkthrough.  To help you set up a VM with the vulnerable NodeJS web applicaiton we have created a setup docuemnt.  The vulnerable web application's setup, scenario, and lab walkthrough documents can be downloaded using the following link: 
 https://byu.box.com/s/cjuwu57xqxbvqomevmyurat0a37drqif 
 
 
