@@ -1,4 +1,4 @@
-# VulnerableNodeJSLab
+# Cyber Tower Defense: VulnerableNodeJSLab
 The purpose of this NodeJS web application is to help you gain experience modifying source code to harden a website against some of the most common web vulnerabilities.  The vulnerable web application contains three pages: a homepage, a page susceptible to SQL injection (SQLi), and a page susceptible to cross-site scripting (XSS).  
 
 
